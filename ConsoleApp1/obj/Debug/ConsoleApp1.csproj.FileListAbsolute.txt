@@ -1,0 +1,2 @@
+E:\Users\Alunot\Documents\MTUCI_17-21\TDB\antivirus-master\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\Users\Alunot\Documents\MTUCI_17-21\TDB\antivirus-master\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
