@@ -15,20 +15,19 @@ namespace ScanObjectBuilder
             ScanObject scanObject = new ScanObject();
             if (chck_file.IsFilePE())
             {
-                return scanObject.Block_read(1, path_to_file);// flag = 1;
-
+                return scanObject.Read(1, path_to_file);
             }
             else
             {
                 if (chck_file.IsFileZip())
                 {
-                    return scanObject.Block_read(2, path_to_file);
+                    return scanObject.Read(2, path_to_file);
                 }
                 else
                 {
                     if (chck_file.IsFileDir())
                     {
-                        return scanObject.Block_read(3, path_to_file);
+                        return scanObject.Read(3, path_to_file);
                     }
                     else
                         return false;
